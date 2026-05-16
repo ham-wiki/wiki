@@ -11,6 +11,7 @@ This page lists essential books for amateur radio operators at all levels. From 
 - **Level:** Intermediate to Advanced
 
 The ARRL Handbook is the single most comprehensive reference in amateur radio. Now over 100 years in publication, it covers:
+
 - Radio theory and electronics fundamentals
 - Transmitter and receiver design
 - Power supplies
@@ -28,6 +29,7 @@ Every serious amateur radio operator should own a copy. The current edition incl
 - **Level:** Intermediate to Advanced
 
 The definitive reference for amateur radio antenna systems. Covers:
+
 - Antenna fundamentals and electromagnetic theory
 - Dipoles, verticals, loops, and Yagi designs
 - Antenna modeling with NEC and EZNEC
@@ -44,6 +46,7 @@ If you are building, buying, or troubleshooting antennas, this is the book to ha
 - **Level:** Beginner to Intermediate
 
 Focused on the practical side of getting on the air:
+
 - HF, VHF, and UHF operating practices
 - DXing and contesting
 - Emergency communications

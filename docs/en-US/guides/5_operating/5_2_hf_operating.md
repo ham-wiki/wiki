@@ -38,6 +38,7 @@ Example:
 > *"CQ CQ CQ, this is W1ABC, Whiskey One Alpha Bravo Charlie. Calling CQ and standing by."*
 
 Tips for calling CQ:
+
 - **Say CQ three times**, followed by your callsign twice (once phonetically at minimum).
 - **Keep it brief.** A CQ call should be 15--20 seconds long, not a minute-long speech.
 - **Listen between calls.** After calling CQ, listen for at least 5--10 seconds before calling again. A station may be trying to respond.
@@ -52,7 +53,7 @@ When you hear a station calling CQ and want to make contact:
 
 > *"W1ABC, this is [your callsign], [phonetically]."*
 
-3. Wait for the calling station to acknowledge you.
+1. Wait for the calling station to acknowledge you.
 
 ### The Standard Exchange
 
@@ -67,9 +68,9 @@ A basic HF contact includes:
 **Example of a minimal contact:**
 
 > *"W2XYZ, this is W1ABC. You're 59 into Boston, Massachusetts. Name here is Alex. Back to you."*
-
+>
 > *"W1ABC from W2XYZ. Thanks, Alex. You're also 59 into New York City. Name is Mike. 73 and good DX."*
-
+>
 > *"W2XYZ, 73, this is W1ABC clear."*
 
 ## The RST System
@@ -110,6 +111,7 @@ The T component is used for CW (Morse code) signals to describe the quality of t
 | 9 | Perfect tone, no hum or ripple |
 
 **Common reports:**
+
 - **59** -- Full readability, extremely strong signal. This is the most commonly given report (sometimes too generously).
 - **57** -- Perfectly readable, moderately strong. A more honest report for a solid signal.
 - **33** -- Readable with difficulty, weak signal. Challenging but workable.
@@ -125,6 +127,7 @@ A **QSL card** is a written confirmation of a two-way contact. Exchanging QSL ca
 ### Paper QSL Cards
 
 Traditional QSL cards are postcards that include:
+
 - Your callsign, name, and address
 - The other station's callsign
 - Date and time (UTC) of the contact
@@ -134,6 +137,7 @@ Traditional QSL cards are postcards that include:
 - Your signature
 
 **Methods of exchange:**
+
 - **Direct:** Mail a QSL card directly to the other station's address (include a self-addressed stamped envelope or IRC for international).
 - **Bureau:** Send cards through the QSL bureau system -- a volunteer-run network that batches and distributes cards. Slower (months to years) but cheaper than direct mail.
 
@@ -150,6 +154,7 @@ Keeping an accurate log of your contacts is essential. In many countries, mainta
 ### What to Log
 
 At minimum, record:
+
 - **Date and time** (always in UTC)
 - **Callsign** of the other station
 - **Frequency** or band
@@ -169,6 +174,7 @@ At minimum, record:
 | **Wavelog** | Web (self-hosted) | Free | Modern fork of CloudLog |
 
 Most logging software can:
+
 - Export in ADIF format (the universal amateur radio log exchange format)
 - Upload directly to LoTW, eQSL, and QRZ
 - Track progress toward awards (DXCC, WAS, etc.)

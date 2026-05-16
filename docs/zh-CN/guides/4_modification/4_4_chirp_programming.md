@@ -4,7 +4,7 @@ CHIRP 是一款免费、开源的跨平台业余无线电编程软件，支持�
 
 ## 软件简介
 
-- **官方网站**：https://chirp.danplanet.com
+- **官方网站**：<https://chirp.danplanet.com>
 - **开源协议**：GPL v3
 - **支持平台**：Windows、macOS、Linux
 - **当前版本**：CHIRP-next（基于 Python 3 + wxPython 的新版本）
@@ -13,7 +13,7 @@ CHIRP 是一款免费、开源的跨平台业余无线电编程软件，支持�
 
 ### Windows 安装
 
-1. 访问 CHIRP 官方网站下载页面：https://chirp.danplanet.com/projects/chirp/wiki/Download
+1. 访问 CHIRP 官方网站下载页面：<https://chirp.danplanet.com/projects/chirp/wiki/Download>
 2. 下载 Windows 安装包（`.exe` 文件）。
 3. 运行安装程序，按照向导完成安装。
 4. 安装完成后，从开始菜单启动 CHIRP。
@@ -70,6 +70,7 @@ Linux 系统通常已内置上述驱动，无需额外安装。但需要确保�
 sudo usermod -aG dialout $USER
 # 需要注销并重新登录生效
 ```
+
 :::
 
 ## 连接电台
@@ -101,6 +102,7 @@ sudo usermod -aG dialout $USER
 4. 读取成功后，信道列表将显示在主界面中。
 
 ::: warning 读取失败怎么办
+
 - 确认串口选择正确。
 - 确认电台已开机且音量不为零（部分电台需要音量旋钮打开才能通信）。
 - 尝试降低通信速率：某些克隆版电台需要更低的波特率。
@@ -245,7 +247,7 @@ CHIRP 支持的电台型号非常多，以下列出国内常见的型号：
 - Leixen VV-898
 
 ::: tip 查看完整列表
-完整的支持电台列表请访问：https://chirp.danplanet.com/projects/chirp/wiki/Home
+完整的支持电台列表请访问：<https://chirp.danplanet.com/projects/chirp/wiki/Home>
 在网页中搜索你的电台型号即可确认是否支持。
 :::
 

@@ -36,6 +36,7 @@ When operating from a vehicle or near a metal surface, a magnetic mount antenna 
 - **Nagoya UT-72:** Affordable dual-band mag mount. ~$20.
 
 **Tips for mag-mount use:**
+
 - Place the antenna on the center of the vehicle roof for the best ground plane.
 - The metal surface acts as the ground plane — no metal surface, no ground plane. Mag mounts do not work well on non-metallic surfaces.
 - Route the coax cable through a door or window jamb. The thin RG-174 cable used on most mag mounts is designed to handle this.
@@ -48,6 +49,7 @@ The tape measure Yagi is a classic DIY project that creates a lightweight, colla
 **Design:** Three elements (reflector, driven, director) made from steel tape measure strips mounted on a PVC boom. The tape measure elements can be rolled up or flexed for transport and snap straight when deployed.
 
 **Materials:**
+
 - A 1-inch steel tape measure (the retractable kind from a hardware store)
 - 3-foot piece of 3/4-inch PVC pipe (boom)
 - Three PVC tee fittings
@@ -56,6 +58,7 @@ The tape measure Yagi is a classic DIY project that creates a lightweight, colla
 - Short coax jumper
 
 **Dimensions (for 146 MHz center frequency):**
+
 - Reflector: 41.5 inches (105.4 cm)
 - Driven element: 35.5 inches total (two halves of 17.75 inches with a gap at the center) (90.2 cm total)
 - Director: 35 inches (88.9 cm)
@@ -63,6 +66,7 @@ The tape measure Yagi is a classic DIY project that creates a lightweight, colla
 - Driven element to director spacing: 10.5 inches (26.7 cm)
 
 **Performance:**
+
 - Approximately 7 dBi gain
 - Highly directional — useful for satellite work, direction finding (fox hunts), and reaching distant repeaters
 - Collapses to a bundle about 3 feet long and a few inches across
@@ -76,6 +80,7 @@ A J-pole antenna made from 300-ohm twin-lead (TV antenna flat wire) that rolls u
 **Design:** The J-pole is a half-wave antenna with an integrated quarter-wave matching section. Made from ladder line, it is lightweight and can be hung from a tree branch, taped to a wall, or draped over a pack.
 
 **Dimensions (for 146 MHz):**
+
 - Radiating section: 38 inches (96.5 cm)
 - Matching stub: 19 inches (48.3 cm)
 - Both conductors connected (shorted) at the bottom of the stub
@@ -92,12 +97,14 @@ These are commercially available pre-made (e.g., Ed Fong's dual-band J-pole, ~$3
 The EFHW has become the dominant portable HF antenna. It consists of a single wire, approximately a half wavelength long on the lowest desired band, fed at one end through a 49:1 impedance transformer (unun). The wire can be deployed as a sloper (one end high, the other low), an inverted-L (part vertical, part horizontal), or strung between two trees.
 
 **Why it is so popular for portable:**
+
 - Only one elevated support point needed (throw a line over a tree branch)
 - No radials required (though a short counterpoise wire improves performance)
 - Multi-band operation on harmonically related bands (a 40 m EFHW works on 40, 20, 15, and 10 m)
 - Lightweight — the entire antenna (wire + transformer) weighs a few ounces
 
 **Commercial options:**
+
 - **MyAntennas EFHW-4010:** Pre-built 40–10 m EFHW with a tuned transformer. ~$60–80.
 - **PackTenna EFHW:** Lightweight end-fed kit designed for backpacking. ~$50–70.
 - **QRP Guys EFHW:** Affordable kit with switchable bands. ~$35.
@@ -137,6 +144,7 @@ Telescoping fiberglass or aluminum masts with loading coils enable portable vert
 A wire cut to a quarter-wavelength, run up a fiberglass pole (like a Jackite 31-foot pole or SOTAbeams 10 m mast) and then bent horizontally for the remaining length, creates an inverted-L antenna. This is essentially a vertical with some horizontal component.
 
 **Setup:**
+
 1. Erect the fiberglass pole (do not guy it unless conditions demand it — most portable poles are free-standing up to 25–30 feet).
 2. Run the wire up the pole as high as it goes.
 3. If the wire is longer than the pole, run the remainder horizontally to an anchor point.

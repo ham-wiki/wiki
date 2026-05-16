@@ -6,7 +6,7 @@ Amateur radio operators have access to many frequency bands scattered across the
 
 Amateur bands are traditionally named by their approximate wavelength. The relationship is straightforward:
 
-```
+```text
 Wavelength (meters) = 300 / Frequency (MHz)
 ```
 

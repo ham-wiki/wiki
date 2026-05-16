@@ -42,6 +42,7 @@ ICOM radios commonly use **diode matrices** to configure the frequency range. Th
 The specific diodes and their locations differ by model. Consult the service manual for your exact radio.
 
 **General ICOM procedure:**
+
 1. Remove the top or bottom cover of the radio (varies by model).
 2. Locate the diode matrix on the main PCB. The diodes are often near the CPU or near a cluster labeled "D" followed by numbers.
 3. Using the service manual's region chart, determine which diodes to add or remove.
@@ -60,6 +61,7 @@ Yaesu radios often use a combination of **solder pads** (jumpers) and sometimes 
 - Bridging or cutting traces between these pads changes the regional configuration.
 
 **Yaesu FTM-300DR (Example):**
+
 1. Open the radio case.
 2. Locate the jumper pads on the main board (refer to service manual).
 3. The radio has multiple regional variants. Changing to a different region setting may unlock wider VHF and UHF coverage.
@@ -70,6 +72,7 @@ Yaesu radios often use a combination of **solder pads** (jumpers) and sometimes 
 Kenwood radios typically use **solder jumpers** similar to Yaesu. Older models may use physical wire jumpers.
 
 **General Kenwood procedure:**
+
 1. Open the radio and locate the jumper area (usually near the microprocessor).
 2. Consult the service manual for the jumper chart.
 3. Modify jumpers as needed by adding or removing solder bridges.
@@ -80,6 +83,7 @@ Kenwood radios typically use **solder jumpers** similar to Yaesu. Older models m
 ### Using the Front Panel
 
 Most mobile radios can be fully programmed from the front panel, but this is tedious for anything beyond a few channels. Front-panel programming is useful for:
+
 - Quick frequency changes in the field
 - Setting up a single repeater while mobile
 - Adjusting squelch, power, and scan settings
@@ -95,11 +99,13 @@ Each manufacturer provides (or sells) programming software:
 | Kenwood | MCP series (e.g., MCP-6A) | Free downloads available for most current models |
 
 **Advantages of manufacturer software:**
+
 - Access to all radio settings, including those not available from the front panel
 - Reliable and tested with the specific radio
 - Firmware updates (when available) are distributed through manufacturer tools
 
 **Disadvantages:**
+
 - Often Windows-only
 - May require a specific (sometimes expensive) programming cable
 - Interface can be unintuitive
@@ -111,15 +117,18 @@ CHIRP is the universal alternative. See the [CHIRP Programming Guide](./4_4_chir
 ## Antenna Considerations for Modified Mobiles
 
 If you expand a mobile radio's frequency range, remember that your antenna must also cover those frequencies. A standard VHF/UHF dual-band mobile antenna is typically tuned for:
+
 - 144--148 MHz (or 144--146 MHz)
 - 430--450 MHz (or 440--450 MHz)
 
 If you intend to operate outside these ranges, you will need:
+
 - A **wideband antenna** that covers your desired frequencies, or
 - A **separate antenna** for each band, or
 - An **antenna tuner** (uncommon for VHF/UHF mobile use but available)
 
 Using a mismatched antenna will result in:
+
 - High SWR, which can damage the radio's final amplifier
 - Poor signal radiation and reception
 - Excessive RF energy reflected back into the transmitter

@@ -32,6 +32,7 @@ The difference between a repeater's input (your transmit) and output (your recei
 | 70 centimeters (440 MHz) | 5 MHz | + (typically in the US) |
 
 **Example:** A 2-meter repeater with an output frequency of 147.060 MHz and a positive (+) offset:
+
 - **You listen on:** 147.060 MHz (the repeater's output)
 - **You transmit on:** 147.660 MHz (147.060 + 0.600 = 147.660, the repeater's input)
 
@@ -97,6 +98,7 @@ If you hear a conversation and want to join:
 ### The Courtesy Tone
 
 Many repeaters emit a short beep or tone after a station finishes transmitting. This **courtesy tone** signals:
+
 1. The repeater's timer has reset.
 2. It is now appropriate for the next station to transmit.
 
@@ -107,6 +109,7 @@ Wait for the courtesy tone before transmitting. This ensures the repeater timer 
 Repeaters have a **timeout timer** (typically 2--3 minutes) that cuts off the transmitter if a single station transmits continuously for too long. This prevents the repeater from being tied up by a stuck microphone or a single excessively long transmission.
 
 If the repeater times out on you:
+
 1. Release PTT immediately.
 2. Wait for the repeater to reset (usually a few seconds).
 3. Continue your transmission in shorter segments.
@@ -128,6 +131,7 @@ Keep your transmissions to **under 60 seconds** at a time as a general courtesy,
 ### RepeaterBook
 
 **RepeaterBook** (`https://www.repeaterbook.com`) is the most comprehensive database of amateur radio repeaters worldwide. You can search by:
+
 - Location (city, state, country)
 - Frequency band
 - Proximity to your coordinates

@@ -83,6 +83,7 @@ The **Conference of European Postal and Telecommunications Administrations (CEPT
 This is the key agreement. It allows a licensed amateur from a CEPT member country to operate in any other CEPT member country **without applying for a separate license**, subject to the host country's regulations.
 
 **Requirements**:
+
 - You must hold a CEPT-compatible license from your home country
 - You must comply with the regulations of the country you are visiting
 - The operating privilege corresponds to your home license class

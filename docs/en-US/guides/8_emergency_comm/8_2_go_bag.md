@@ -108,6 +108,7 @@ Test your solar charging setup at home before you need it. Understand how many h
 ### Accessories and Supplies
 
 #### Communication Accessories
+
 - **Paper and pens** -- For writing messages, logging contacts, recording information. Include a small clipboard.
 - **Printed frequency reference** -- A laminated card with your local repeaters, simplex frequencies, HF emergency frequencies, and net schedules. Do not rely on your phone for this; it may be dead.
 - **Printed contact list** -- Names and phone numbers of your ARES/RACES team, local emergency management, and family members.
@@ -115,6 +116,7 @@ Test your solar charging setup at home before you need it. Understand how many h
 - **Clock/watch set to UTC** -- Accurate timekeeping is essential for logging. A watch with UTC display is ideal.
 
 #### General Supplies
+
 - **Headlamp or flashlight** -- With spare batteries. You may be operating in the dark.
 - **Multi-tool or knife**
 - **Electrical tape and zip ties**
@@ -132,6 +134,7 @@ Adding digital mode capability to your go bag significantly expands what you can
 - **APRS:** Position reporting and messaging. A Bluetooth TNC and smartphone running APRSDroid can add APRS capability to any 2-meter FM radio.
 
 **Laptop/tablet considerations:**
+
 - Ensure the device has sufficient battery life (or bring a means to charge it).
 - Pre-install all software and test the complete setup before packing.
 - Store critical documents, frequency lists, and references on the device (accessible offline).
@@ -180,6 +183,7 @@ A go bag is only useful if it's ready when you need it:
 ### Intermediate (VHF/UHF + HF, Under $1000)
 
 Everything above, plus:
+
 - Xiegu G90 (20W HF) or similar portable HF radio
 - EFHW wire antenna for 40m
 - 12V 6Ah LiFePO4 battery
@@ -190,6 +194,7 @@ Everything above, plus:
 ### Full Capability (Under $3000)
 
 Everything above, plus:
+
 - Yaesu FT-891 (100W HF) or ICOM IC-705
 - 12V 20Ah LiFePO4 battery
 - 50W folding solar panel with charge controller

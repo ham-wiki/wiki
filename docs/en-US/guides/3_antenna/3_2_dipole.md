@@ -12,13 +12,13 @@ When RF energy is applied at the feedpoint, current flows outward along both ele
 
 The theoretical half-wavelength in free space is:
 
-```
+```text
 Length (feet) = 492 / frequency (MHz)
 ```
 
 In practice, the ends of the antenna have a capacitive loading effect (end effect), and the wire's diameter and proximity to ground affect the resonant length. A commonly used formula that accounts for these effects is:
 
-```
+```text
 Length (feet) = 468 / frequency (MHz)
 ```
 

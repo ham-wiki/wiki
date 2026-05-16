@@ -76,6 +76,7 @@ BrandMeister 是全球最大的業餘無線電 DMR 網路：
 - **ZUMspot / MMDVM_HS**：常見的 MMDVM 硬體
 
 Hotspot 的工作原理：
+
 1. 你的 DMR 手持機發射信號到 Hotspot（距離通常幾公尺到幾十公尺）
 2. Hotspot 透過 Wi-Fi 或有線網路將信號傳送到 DMR 伺服器
 3. DMR 伺服器將信號轉發到目標通話群組

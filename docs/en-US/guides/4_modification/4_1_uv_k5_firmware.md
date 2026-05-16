@@ -26,6 +26,7 @@ The stock UV-K5 firmware is functional but limited. Custom firmware unlocks capa
 The **egzumer** firmware is a fork of the original open-source OEFW (Open Edition Firmware) project. It is widely considered the most stable and feature-rich option for general use.
 
 **Key features:**
+
 - Spectrum analyzer with adjustable bandwidth
 - Improved AM/FM reception
 - Faster scanning
@@ -47,6 +48,7 @@ The original open-source firmware project that spawned most forks. Development h
 ### RE Firmware (Tunas1629)
 
 A more experimental fork focused on pushing the hardware limits. Includes features like:
+
 - SSB demodulation (narrow-band)
 - Si4732 chip direct control
 - Extended modulation options
@@ -73,6 +75,7 @@ The community has built browser-based flashing tools that require no software in
 **UV-K5 Web Flasher:** `https://egzumer.github.io/uvtools/`
 
 This tool runs directly in your web browser using the Web Serial API. Requirements:
+
 - A Chromium-based browser (Google Chrome, Microsoft Edge, Brave). Firefox does **not** support Web Serial.
 - USB cable connected and recognized by your OS
 
@@ -113,6 +116,7 @@ Always back up your existing firmware and channel data before flashing. If somet
 :::
 
 Using the web flasher:
+
 1. Connect your radio to the computer via the USB programming cable.
 2. Turn the radio **off**.
 3. Open the web flasher in Chrome/Edge.
@@ -139,28 +143,33 @@ Using the web flasher:
 ### Step 5: Restore Your Channels (If Needed)
 
 Custom firmware may or may not preserve your existing channel memories. If your channels are gone:
+
 1. Use the web flasher's **Write EEPROM** function to restore from your backup, **or**
 2. Re-program channels using CHIRP (see the [CHIRP Programming Guide](./4_4_chirp_programming.md))
 
 ## Troubleshooting
 
 ### Radio won't enter bootloader mode
+
 - Make sure you are holding **PTT** before and while turning the radio on.
 - Try a different USB cable. Some cables are charge-only and do not carry data.
 - Check that your OS recognizes the USB serial device. On Windows, you may need to install a driver (typically a CH340 or Prolific PL2303 driver). On Linux, the device should appear as `/dev/ttyUSB0` or `/dev/ttyACM0`.
 
 ### Flashing fails or times out
+
 - Close any other applications that might be using the serial port (CHIRP, terminal emulators, etc.).
 - Try a different USB port. Avoid USB hubs -- connect directly to the computer.
 - Reduce the baud rate if the flashing tool offers that option.
 - On Linux, ensure your user has permission to access serial ports: `sudo usermod -aG dialout $USER` (then log out and back in).
 
 ### Radio is bricked (won't turn on or stuck on boot)
+
 - Don't panic. The bootloader is stored in a protected area and is very difficult to overwrite.
 - Re-enter bootloader mode (PTT + power on) and flash the stock firmware or a known-good custom firmware.
 - If the bootloader itself is corrupted (extremely rare), the radio will need a JTAG/SWD recovery, which requires specialized equipment.
 
 ### Audio quality is different after flashing
+
 - Custom firmware may have different default audio processing settings. Explore the firmware's menu options for squelch type, bandwidth, and audio gain settings.
 
 ## Tips and Best Practices

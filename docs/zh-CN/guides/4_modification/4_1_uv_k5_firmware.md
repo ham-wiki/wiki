@@ -84,7 +84,7 @@ Web 刷写工具依赖 Web Serial API，请使用 **Google Chrome** 或 **Micros
 
 **步骤：**
 
-1. 访问在线刷写页面：https://egzumer.github.io/uvtools/
+1. 访问在线刷写页面：<https://egzumer.github.io/uvtools/>
 2. 从 GitHub Releases 下载最新固件 `.bin` 文件。
 3. 将编程线连接到电台和电脑。
 4. **关闭电台电源。**
@@ -126,7 +126,7 @@ make
 
 egzumer 提供了在线配置页面，可以方便地修改电台参数：
 
-1. 访问 https://egzumer.github.io/uvtools/
+1. 访问 <https://egzumer.github.io/uvtools/>
 2. 连接电台（正常开机状态，非刷写模式）。
 3. 点击 "Read Config" 读取当前配置。
 4. 修改频率、信道名称、功能开关等参数。

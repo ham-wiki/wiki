@@ -88,6 +88,7 @@ These regulatory topics appear on nearly every exam:
 **Rule**: Power uses `10 x log(P2/P1)`. Voltage uses `20 x log(V2/V1)`.
 
 **Quick reference**:
+
 - +3 dB = power doubles
 - +10 dB = power increases 10x
 - +20 dB = power increases 100x

@@ -21,17 +21,18 @@ For example, FM broadcast stations operate between 88 and 108 MHz, while the pop
 
 Wavelength is the physical distance one complete cycle of an electromagnetic wave occupies in space. Frequency and wavelength are inversely related:
 
-```
+```text
 Wavelength (meters) = Speed of light / Frequency = 300,000,000 / Frequency (Hz)
 ```
 
 Simplified formula:
 
-```
+```text
 Wavelength (meters) = 300 / Frequency (MHz)
 ```
 
 **Examples**:
+
 - 144 MHz: wavelength = 300 / 144 = 2.08 m --> hence the "**2-meter band**"
 - 430 MHz: wavelength = 300 / 430 = 0.70 m --> hence the "**70-centimeter band**"
 - 7 MHz: wavelength = 300 / 7 = 42.8 m --> hence the "**40-meter band**"
@@ -82,11 +83,13 @@ SSB is an improved version of AM. It transmits only one sideband, discarding the
 - **LSB (Lower Sideband)**: Transmits the sideband below the carrier frequency
 
 **Convention**:
+
 - **Below 10 MHz** (7 MHz and lower HF bands): Use **LSB**
 - **Above 10 MHz** (14 MHz and higher HF bands): Use **USB**
 - **VHF/UHF** SSB operation: Use **USB**
 
 SSB characteristics:
+
 - **Advantages**: High spectrum efficiency (bandwidth of only about 2.4 kHz), high power efficiency (all power goes to carrying information)
 - **Disadvantages**: Requires precise tuning, needs some operator skill
 - **Uses**: The preferred mode for long-distance HF voice communication
@@ -125,7 +128,7 @@ The basic unit of power is the watt (W), representing energy transferred per sec
 
 The decibel is a **relative** unit used to describe the ratio between two power levels or signal levels.
 
-```
+```text
 dB = 10 x log10(P2 / P1)
 ```
 
@@ -146,6 +149,7 @@ Commonly used dB conversions:
 - **dBW**: Decibels referenced to 1 watt. 0 dBW = 1 W
 
 **Conversion examples**:
+
 - 1 W = 30 dBm = 0 dBW
 - 5 W = 37 dBm = 7 dBW
 - 100 W = 50 dBm = 20 dBW
@@ -158,7 +162,7 @@ Understanding decibels is essential because they come up constantly in discussio
 
 Standing Wave Ratio (SWR) is a critical metric for measuring how well your antenna system is matched. When RF energy travels from your transmitter through the feedline to the antenna, any impedance mismatch between the feedline and the antenna causes some energy to be reflected back, creating standing waves.
 
-```
+```text
 SWR = (1 + |reflection coefficient|) / (1 - |reflection coefficient|)
 ```
 
@@ -217,6 +221,7 @@ Polarization refers to the orientation of the electric field of an electromagnet
 The transmitting and receiving antennas should ideally have the same polarization. If the polarization is cross-polarized (one vertical, one horizontal), there is a theoretical signal loss of about **20 dB** (in practice, reflections and scattering reduce this somewhat, but it is still very significant).
 
 **Conventions**:
+
 - VHF/UHF FM communication (repeaters, HTs): **Vertical polarization**
 - VHF/UHF SSB/CW communication: **Horizontal polarization**
 - HF communication: Polarization changes during ionospheric reflection, so it is less critical
@@ -244,6 +249,7 @@ The ionosphere is divided into several layers:
 | **F2 layer** | 250-400 km | The most important reflecting layer; at night, F1 and F2 merge into a single F layer |
 
 Factors affecting sky wave propagation:
+
 - **Solar activity**: Higher sunspot numbers mean greater ionization, which raises the Maximum Usable Frequency (MUF)
 - **Time of day**: Propagation conditions differ dramatically between day and night
 - **Season**: Different seasons produce different propagation characteristics
@@ -255,7 +261,7 @@ VHF and UHF signals travel primarily in straight lines, similar to light. Range 
 
 Approximate formula (accounting for atmospheric refraction):
 
-```
+```text
 Maximum line-of-sight distance (km) = 4.12 x (sqrt(h1) + sqrt(h2))
 ```
 

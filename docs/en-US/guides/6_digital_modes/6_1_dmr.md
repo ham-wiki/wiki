@@ -80,6 +80,7 @@ Amateur DMR repeaters connect to each other through internet-linked networks:
 ### Brandmeister
 
 The largest amateur DMR network worldwide. Features:
+
 - Global network of thousands of repeaters
 - Self-service dashboard (`https://brandmeister.network`)
 - Supports hotspot connections
@@ -90,6 +91,7 @@ The largest amateur DMR network worldwide. Features:
 ### TGIF (The Gathering Is Fun)
 
 A smaller, community-focused network:
+
 - Less formal than Brandmeister
 - Emphasis on experimentation and community
 - Popular for special-interest talk groups

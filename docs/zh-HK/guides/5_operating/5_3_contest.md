@@ -28,6 +28,7 @@
 ### 交換訊息（Exchange）
 
 每次通聯需要交換嘅訊息因競賽而異，常見嘅包括：
+
 - 信號報告 + CQ Zone（CQ WW）
 - 信號報告 + ITU Zone（CQ WPX）
 - 信號報告 + 序號（通用）
@@ -114,16 +115,19 @@
 ## 競賽日誌軟件
 
 ### N1MM+
+
 - **價格**：免費
 - **平台**：Windows
 - **特點**：功能最全面，支持幾乎所有競賽
 - **下載**：[n1mmwp.hamdocs.com](https://n1mmwp.hamdocs.com)
 
 ### WSJT-X
+
 - 用於 FT8/FT4 競賽模式
 - 配合 JTDX 使用
 
 ### Logger32
+
 - 免費嘅通用日誌軟件
 - 支持部分競賽
 
@@ -140,6 +144,7 @@
 ### VHF/UHF 競賽
 
 如果你仲未有 HF 設備，亦有 VHF/UHF 競賽可以參加：
+
 - ARRL VHF Contest
 - 各地區嘅 VHF/UHF 競賽
 - 操作同 HF 競賽類似，但使用唔同嘅頻段
@@ -154,6 +159,7 @@
 ## 競賽日曆
 
 要了解全年嘅競賽日程：
+
 - **WA7BNM Contest Calendar**：[contestcalendar.com](https://www.contestcalendar.com) — 最全面嘅競賽日曆
 - **ARRL Contest Branch**：美國嘅競賽資訊
 - **CQ Magazine**：CQ 系列競賽嘅官方來源

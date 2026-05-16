@@ -7,42 +7,51 @@ When disaster strikes and normal communications fail, amateur radio operators pr
 Amateur radio serves several distinct functions during emergencies:
 
 ### Health and Welfare Traffic
+
 Passing messages about the safety and well-being of individuals to their families. After a disaster, one of the most overwhelming demands on communication systems is people trying to reach loved ones.
 
 ### Tactical Communication
+
 Direct, real-time communication supporting emergency response operations:
+
 - Coordination between shelters, hospitals, and emergency management
 - Search and rescue coordination
 - Damage assessment reports
 - Resource requests and logistics
 
 ### Formal Message Traffic (Radiograms)
+
 Structured messages using the ARRL radiogram format that ensure critical information is transmitted accurately and can be relayed across multiple stations without loss of meaning.
 
 ### Skywarn and Weather Reporting
+
 Trained amateur radio operators provide real-time severe weather reports to the National Weather Service (in the US) through the Skywarn program. Ground-truth reports of tornadoes, hail, flooding, and wind damage save lives by confirming radar observations.
 
 ## Emergency Organizations
 
 ### ARES (Amateur Radio Emergency Service)
+
 - Organized by the ARRL at the local and state level
 - Volunteers register with their local Emergency Coordinator (EC)
 - Provides communication support during events and disasters
 - Trains regularly through nets, exercises, and drills
 
 ### RACES (Radio Amateur Civil Emergency Service)
+
 - Federally authorized (in the US) under FEMA
 - Activated by a state or local government official during a declared emergency
 - Participants must be registered with their local civil defense or emergency management agency
 - May operate on specific RACES frequencies during activation
 
 ### SKYWARN
+
 - A volunteer program of the National Weather Service (US)
 - Trained spotters report severe weather observations
 - Many Skywarn nets operate on amateur radio repeaters
 - Free training available (online and in-person) through local NWS offices
 
 ### SATERN (Salvation Army Team Emergency Radio Network)
+
 - Amateur radio operators supporting Salvation Army disaster relief
 - Provides communication for disaster response and health and welfare traffic
 
@@ -73,6 +82,7 @@ Certain frequencies are recognized for emergency and calling purposes. In a real
 | **14.265 MHz** | USB | Salvation Army (SATERN). |
 
 ### Winlink Frequencies
+
 Winlink provides email over radio, which is invaluable for sending detailed messages during emergencies. Winlink gateways operate on various HF and VHF frequencies. A current list is maintained in the Winlink Express software.
 
 ## Operating Procedures
@@ -140,6 +150,7 @@ Learning to send and receive radiograms accurately is a core emergency communica
 ### Communication Plan
 
 Create a personal and family communication plan:
+
 1. **Designate meeting points** and check-in times.
 2. **Identify a distant relay** -- a friend or family member outside the likely disaster area who can serve as a message hub.
 3. **Establish primary and backup communication methods** (repeater, simplex, HF, Winlink).

@@ -58,6 +58,7 @@ Modern HF operating increasingly involves digital modes. Features that support d
 The IC-7300 revolutionized entry-level HF radio when it launched. It was the first affordable transceiver to use a direct-sampling SDR architecture, and it remains the most popular first HF radio sold today.
 
 **Key Features:**
+
 - Direct-sampling SDR receiver
 - Real-time spectrum scope and waterfall display with touchscreen
 - 100 W output on HF + 6 m (50 MHz)
@@ -76,6 +77,7 @@ The IC-7300 revolutionized entry-level HF radio when it launched. It was the fir
 The FT-991A is Yaesu's all-in-one transceiver covering HF, 6 m, 2 m (VHF), and 70 cm (UHF) in a single box.
 
 **Key Features:**
+
 - HF + 6 m + 2 m + 70 cm coverage (the only current radio to do this)
 - 100 W HF/6 m, 50 W VHF/UHF
 - Built-in automatic antenna tuner
@@ -93,6 +95,7 @@ The FT-991A is Yaesu's all-in-one transceiver covering HF, 6 m, 2 m (VHF), and 7
 Yaesu's direct competitor to the IC-7300, featuring a direct-sampling SDR architecture.
 
 **Key Features:**
+
 - Direct-sampling SDR receiver
 - HF + 6 m, 100 W
 - Large 4.3-inch color touchscreen with spectrum scope and waterfall
@@ -111,6 +114,7 @@ Yaesu's direct competitor to the IC-7300, featuring a direct-sampling SDR archit
 A compact, portable-friendly HF transceiver at a budget price point.
 
 **Key Features:**
+
 - HF only (0.5–30 MHz), 20 W output
 - Built-in automatic antenna tuner with wide matching range
 - Small form factor, suitable for portable/POTA/SOTA operations
@@ -128,6 +132,7 @@ A compact, portable-friendly HF transceiver at a budget price point.
 The IC-7610 is a dual-receiver, direct-sampling SDR transceiver that represents a major step up from the IC-7300.
 
 **Key Features:**
+
 - Dual independent direct-sampling SDR receivers
 - Two real-time spectrum scopes (one per receiver)
 - 100 W, HF + 6 m
@@ -144,6 +149,7 @@ The IC-7610 is a dual-receiver, direct-sampling SDR transceiver that represents 
 Kenwood's flagship superheterodyne transceiver with a hybrid approach.
 
 **Key Features:**
+
 - Hybrid superheterodyne + DSP architecture
 - 200 W output on HF + 6 m
 - Exceptional receiver performance — among the best measured dynamic range figures in its class
@@ -163,6 +169,7 @@ Kenwood's flagship superheterodyne transceiver with a hybrid approach.
 ICOM's top-of-the-line transceiver.
 
 **Key Features:**
+
 - Dual direct-sampling SDR receivers
 - +40 dB 3rd-order intercept point with DIGI-SEL
 - 200 W output
@@ -175,6 +182,7 @@ ICOM's top-of-the-line transceiver.
 Yaesu's flagship with hybrid SDR architecture and dual receivers.
 
 **Key Features:**
+
 - Dual-channel direct-sampling SDR
 - Narrow-band roofing filters (300 Hz / 600 Hz / 1.2 kHz / 3 kHz)
 - 200 W output
@@ -186,6 +194,7 @@ Yaesu's flagship with hybrid SDR architecture and dual receivers.
 Flex radios take SDR to its logical conclusion — the radio is essentially a box with an ADC and a network connection. All operation happens via SmartSDR software on your computer or iPad.
 
 **Key Features:**
+
 - Fully software-defined, no physical front panel
 - Multiple independent receivers (panadapters)
 - Operates over your local network — the radio can be in one room and the operator in another (or across the internet via SmartLink)

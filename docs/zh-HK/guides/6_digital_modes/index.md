@@ -12,12 +12,14 @@
 ## 數碼模式嘅分類
 
 ### VHF/UHF 數碼語音
+
 - **DMR**（Digital Mobile Radio）：開放標準，設備選擇多
 - **D-STAR**（Digital Smart Technologies for Amateur Radio）：ICOM 主導
 - **C4FM / System Fusion**：八重洲（Yaesu）主導
 - **P25**：主要用於公共安全通信
 
 ### HF 數碼模式
+
 - **FT8 / FT4**：弱信號通信，自動化程度高
 - **PSK31**：低帶寬鍵盤通信
 - **RTTY**：電傳打字機模式
@@ -25,6 +27,7 @@
 - **Winlink**：無線電電子郵件
 
 ### 數據通信
+
 - **APRS**：位置報告同短消息
 - **Packet Radio**：封包無線電
 - **Winlink**：HF/VHF 電子郵件

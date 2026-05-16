@@ -66,6 +66,7 @@ System Fusion 的一大特色是 **AMS（Automatic Mode Select）** 功能：
 Wires-X（Wide-coverage Internet Repeating Enhancement System）是 Yaesu 开发的通过互联网连接 C4FM 中继器和节点的网络系统。
 
 **功能：**
+
 - 将世界各地的 C4FM 中继器和节点通过互联网互联
 - 用户可以连接到不同的"房间（Room）"进行群组通话
 - 支持语音、文字消息和图片传输
@@ -202,8 +203,8 @@ D-STAR 最重要的特性是**呼号路由（Callsign Routing）**。在 D-STAR 
 | 操作 | URCALL 设置 |
 |------|------------|
 | 连接到 REF001 模块 C | `REF001CL`（最后的 L 表示 Link） |
-| 断开当前反射器 | `       U`（7 个空格 + U，表示 Unlink） |
-| 查询当前连接状态 | `       I`（7 个空格 + I，表示 Info） |
+| 断开当前反射器 | `U`（7 个空格 + U，表示 Unlink） |
+| 查询当前连接状态 | `I`（7 个空格 + I，表示 Info） |
 
 连接成功后，将 URCALL 改回 `CQCQCQ` 即可正常通话。
 

@@ -45,6 +45,7 @@ Some mobile radios can act as cross-band repeaters, retransmitting signals recei
 The FTM-300DR is one of the most popular dual-band mobile radios currently in production.
 
 **Key Features:**
+
 - 50 W VHF / 40 W UHF
 - C4FM digital voice (System Fusion) + conventional FM
 - Built-in GPS and full APRS functionality (both analog APRS and digital C4FM)
@@ -64,6 +65,7 @@ The FTM-300DR is one of the most popular dual-band mobile radios currently in pr
 The FTM-500DR is the step-up from the FTM-300DR, adding a full-color touch panel, higher-resolution display, and improved audio processing.
 
 **Key Features:**
+
 - All FTM-300DR features plus full-color touchscreen
 - Enhanced C4FM with smart navigation
 - Improved audio DSP
@@ -78,6 +80,7 @@ The FTM-500DR is the step-up from the FTM-300DR, adding a full-color touch panel
 The IC-2730A is a straightforward, no-nonsense dual-band analog mobile.
 
 **Key Features:**
+
 - 50 W VHF / 35 W UHF
 - Dual receive with independent band controls
 - Detachable front panel (standard)
@@ -94,6 +97,7 @@ The IC-2730A is a straightforward, no-nonsense dual-band analog mobile.
 ICOM's D-STAR capable dual-band mobile.
 
 **Key Features:**
+
 - 50 W VHF / 35 W UHF
 - D-STAR digital voice and data with DR mode for easy repeater access
 - GPS built-in
@@ -111,6 +115,7 @@ ICOM's D-STAR capable dual-band mobile.
 A legendary radio among APRS enthusiasts.
 
 **Key Features:**
+
 - 50 W VHF / 35 W UHF
 - Built-in full-featured TNC (Terminal Node Controller)
 - Native APRS with SmartBeaconing
@@ -128,6 +133,7 @@ A legendary radio among APRS enthusiasts.
 A tri-band mobile with DMR capability.
 
 **Key Features:**
+
 - VHF / UHF / 220 MHz (1.25 m band)
 - DMR Tier II + analog FM
 - APRS (analog and DMR)

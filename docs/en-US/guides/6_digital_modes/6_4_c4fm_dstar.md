@@ -9,6 +9,7 @@ C4FM (System Fusion) and D-STAR are manufacturer-specific digital voice systems 
 C4FM stands for **Continuous 4-level Frequency Modulation**, which describes the modulation scheme. **System Fusion** is Yaesu's marketing name for their digital radio system built around C4FM.
 
 Key characteristics:
+
 - Uses the same 12.5 kHz channel spacing as analog FM
 - **Automatic Mode Select (AMS)** allows a System Fusion repeater to accept both analog FM and digital C4FM transmissions, switching automatically
 - No equivalent of DMR's talk groups or color codes -- the system is simpler but less flexible
@@ -30,11 +31,13 @@ For general use, **DN mode** is recommended as it provides good voice quality wh
 **Wires-X** (Wide-coverage Internet Repeater Enhancement System) is Yaesu's internet linking system for System Fusion. It connects repeaters and nodes into a global network.
 
 #### Rooms and Nodes
+
 - A **room** is a conference server where multiple stations and repeaters can connect simultaneously (similar to a DMR talk group).
 - A **node** is a single repeater or hotspot connected to Wires-X.
 - Users can connect to rooms or directly to other nodes from their radio's front panel (if the local repeater supports Wires-X) or through a hotspot.
 
 #### Connecting to a Wires-X Room
+
 1. Press the **DX** button (or equivalent) on your Yaesu radio while connected to a Wires-X-enabled repeater.
 2. The radio displays a list of available rooms and nodes.
 3. Select the desired room and press **Connect**.
@@ -56,6 +59,7 @@ The room list changes frequently. Use the Wires-X search function on your radio 
 System Fusion repeaters are widely deployed worldwide. Many operate in **AMS mode**, accepting both analog FM and C4FM digital signals. This makes them backward-compatible with any analog FM radio -- you don't need a Fusion radio to use a Fusion repeater (though you won't get digital features with an analog radio).
 
 Find System Fusion repeaters at:
+
 - `https://www.yaesu.com/jp/en/wires-x/id/active_node.php`
 - RepeaterBook (filter by System Fusion)
 
@@ -76,6 +80,7 @@ Find System Fusion repeaters at:
 D-STAR is a digital voice and data protocol developed by **JARL** (Japan Amateur Radio League) and implemented primarily by **ICOM**. It was the first commercially available digital voice system for amateur radio.
 
 Key characteristics:
+
 - Uses **GMSK modulation** (Gaussian Minimum Shift Keying) on VHF/UHF
 - Voice codec: **AMBE** (original) or **AMBE+2** (newer radios)
 - Supports simultaneous voice and low-speed data (GPS position, text)
@@ -105,6 +110,7 @@ D-STAR **reflectors** are conference servers (similar to DMR talk groups or Wire
 #### Gateway and Linking
 
 D-STAR repeaters with an internet gateway can:
+
 - Connect to reflectors
 - Route calls to specific stations via **callsign routing**
 - Link directly to other repeaters
@@ -112,6 +118,7 @@ D-STAR repeaters with an internet gateway can:
 #### Callsign Routing
 
 One of D-STAR's unique features is callsign-based routing:
+
 1. You program the **destination callsign** into your radio's URCALL field.
 2. When you transmit, the D-STAR network looks up where that callsign was last active and routes your transmission to that repeater.
 3. The other station hears your call, regardless of which repeater they are near.
@@ -160,12 +167,14 @@ One of the challenges of having multiple digital voice systems is that they are 
 ### Multi-Mode Hotspots
 
 MMDVM-based hotspots (running Pi-Star or WPSD) can operate in **multiple modes**:
+
 - DMR, C4FM, D-STAR, P25, and NXDN
 - You can switch between modes by changing the hotspot's configuration or by having the hotspot monitor for all modes simultaneously
 
 ### Cross-Mode Bridges
 
 Some repeaters and network operators run **bridges** that connect different digital voice systems:
+
 - A DMR talk group may be bridged to a D-STAR reflector and a Wires-X room, so stations on all three systems can communicate.
 - Audio quality may be slightly degraded when transcoding between vocoders.
 - Bridge availability and reliability varies.
@@ -182,6 +191,7 @@ Some repeaters and network operators run **bridges** that connect different digi
 | Hotspot support | Excellent | Good | Good |
 
 For most new operators, the choice often comes down to:
+
 - What system your local repeaters use
 - What system your friends use
 - What radio you already own or want to buy

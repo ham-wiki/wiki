@@ -16,6 +16,7 @@ Operating an amateur radio transmitter without a license is illegal in virtually
 ### How Long Does It Take?
 
 For most entry-level exams:
+
 - **China (CRAC A class)**: 1-2 weeks of study
 - **United States (FCC Technician)**: 1-3 weeks of study
 - **United Kingdom (Foundation)**: A weekend course plus exam
@@ -55,6 +56,7 @@ If your license class permits HF operation, you may want to explore HF transceiv
 A repeater is an automated radio station, usually installed on a hilltop or tall building, that receives signals on one frequency and simultaneously retransmits them on another. Repeaters dramatically extend the range of low-power handheld and mobile radios.
 
 To use a repeater, you need to program your radio with:
+
 - **Receive frequency**: The repeater's output frequency (what you listen to)
 - **Transmit frequency**: The repeater's input frequency (what you transmit on), which is offset from the receive frequency
 - **Offset direction**: Whether the transmit frequency is above (+) or below (-) the receive frequency

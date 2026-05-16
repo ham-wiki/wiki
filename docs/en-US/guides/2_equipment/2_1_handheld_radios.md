@@ -52,6 +52,7 @@ Some HTs support digital voice protocols:
 The Baofeng UV-5R is the most widely sold amateur radio in history. At roughly $20–30, it provides a dual-band VHF/UHF transceiver that gets new hams on the air with minimal investment.
 
 **Pros:**
+
 - Extremely inexpensive
 - Dual-band VHF/UHF
 - Huge aftermarket ecosystem (antennas, batteries, cases, programming cables)
@@ -59,6 +60,7 @@ The Baofeng UV-5R is the most widely sold amateur radio in history. At roughly $
 - Widely documented; countless tutorials available
 
 **Cons:**
+
 - Poor front-end filtering; prone to intermodulation in RF-dense areas
 - Spurious emissions may be marginal against regulatory limits
 - Mediocre audio quality
@@ -72,6 +74,7 @@ The Baofeng UV-5R is the most widely sold amateur radio in history. At roughly $
 The Quansheng UV-K5 has rapidly become a favorite among budget-conscious hams, especially after the open-source firmware community embraced it.
 
 **Pros:**
+
 - Inexpensive (~$25–35)
 - Open-source firmware (egzumer, fagci) unlocks spectrum analyzer, AM reception, SSB reception, and much more
 - Wideband receive coverage (18 MHz – 1.3 GHz with firmware mods)
@@ -80,6 +83,7 @@ The Quansheng UV-K5 has rapidly become a favorite among budget-conscious hams, e
 - Active community development
 
 **Cons:**
+
 - Stock firmware is limited; the radio really shines only with aftermarket firmware
 - Still a budget radio — receiver will not compete with mid-range or premium HTs
 - Build quality is adequate but not rugged
@@ -98,6 +102,7 @@ Baofeng releases many variants with slightly different model names but similar i
 Yaesu's entry-level handhelds offer a significant step up in receiver quality and build from the budget Chinese radios.
 
 **Pros:**
+
 - Solid receiver with better front-end filtering
 - Clear, loud audio
 - Simple, intuitive operation
@@ -106,6 +111,7 @@ Yaesu's entry-level handhelds offer a significant step up in receiver quality an
 - ~$80–100
 
 **Cons:**
+
 - No wideband receive
 - Basic feature set (no APRS, no digital voice)
 - Proprietary battery/antenna connectors
@@ -121,6 +127,7 @@ A long-standing favorite, the FT-60R has been in production for over a decade. I
 For hams interested in DMR digital voice, these radios offer capable DMR Tier I and II operation alongside analog FM, with features like roaming, APRS (AnyTone), Bluetooth, and large contact databases.
 
 **Pros:**
+
 - Full DMR capability with dual time slot
 - Analog FM + DMR in one radio
 - GPS and APRS (AnyTone)
@@ -129,6 +136,7 @@ For hams interested in DMR digital voice, these radios offer capable DMR Tier I 
 - ~$150–250
 
 **Cons:**
+
 - DMR programming can be complex for beginners (code plugs)
 - Bulkier than simple analog HTs
 - The DMR ecosystem requires some study to understand (talk groups, time slots, color codes)
@@ -142,6 +150,7 @@ For hams interested in DMR digital voice, these radios offer capable DMR Tier I 
 Yaesu's flagship handhelds include C4FM digital voice (System Fusion), wideband receive, touchscreen (FT-3DR), GPS, APRS, Bluetooth, and excellent receiver performance.
 
 **Pros:**
+
 - C4FM digital voice with automatic mode switching (AMS)
 - Excellent receiver with narrow front-end filters
 - GPS and full APRS functionality
@@ -150,6 +159,7 @@ Yaesu's flagship handhelds include C4FM digital voice (System Fusion), wideband 
 - ~$300–500
 
 **Cons:**
+
 - Expensive
 - C4FM is less widely adopted than DMR in some regions
 - Proprietary battery and antenna connectors
@@ -159,6 +169,7 @@ Yaesu's flagship handhelds include C4FM digital voice (System Fusion), wideband 
 The TH-D75A is Kenwood's latest flagship HT and supports D-STAR, FM analog, and wideband receive. It includes a built-in TNC for APRS, GPS, Bluetooth, and a color display.
 
 **Pros:**
+
 - D-STAR digital voice with terminal and access point modes
 - Excellent receiver, wide frequency coverage
 - Built-in TNC for APRS and packet
@@ -168,6 +179,7 @@ The TH-D75A is Kenwood's latest flagship HT and supports D-STAR, FM analog, and 
 - ~$500–600
 
 **Cons:**
+
 - The most expensive HT on the market
 - D-STAR infrastructure is less common than DMR in many areas
 
@@ -176,6 +188,7 @@ The TH-D75A is Kenwood's latest flagship HT and supports D-STAR, FM analog, and 
 ICOM's flagship portable supports D-STAR, FM, and offers features like GPS, Bluetooth audio, a color display, and built-in audio recording. The D-STAR terminal mode allows internet-linked communication through your smartphone.
 
 **Pros:**
+
 - D-STAR with terminal mode and DR function for easy repeater linking
 - IPX7 waterproof
 - Excellent build and audio quality
@@ -183,6 +196,7 @@ ICOM's flagship portable supports D-STAR, FM, and offers features like GPS, Blue
 - ~$450–550
 
 **Cons:**
+
 - Pricey
 - D-STAR availability varies by region
 

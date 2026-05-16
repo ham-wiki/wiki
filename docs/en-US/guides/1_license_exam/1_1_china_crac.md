@@ -142,6 +142,7 @@ Mainland China amateur radio callsigns follow the format **prefix + numeral + su
 - The numeral represents the radio management region (0-9 correspond to different provincial areas)
 
 Common personal callsign prefixes:
+
 - **BA/BD**: A class personal station
 - **BG/BH**: B class personal station
 - **BV**: C class personal station

@@ -26,7 +26,7 @@ The simplest vertical antenna for VHF or UHF is a quarter-wave ground plane. It 
 
 **Calculating element length:**
 
-```
+```text
 Quarter wavelength (inches) = 2808 / frequency (MHz)
 ```
 

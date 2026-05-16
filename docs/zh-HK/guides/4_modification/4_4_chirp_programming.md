@@ -5,10 +5,12 @@ CHIRP 係一個免費、開源嘅電台編程軟件，支持超過 300 款唔同
 ## 下載同安裝
 
 ### 下載地址
+
 - 官方網站：[chirpmyradio.com](https://chirpmyradio.com)
 - 建議下載最新嘅 CHIRP-next 版本（Python 3 版本）
 
 ### 系統要求
+
 - **Windows**：Windows 10 或以上
 - **macOS**：10.14 或以上
 - **Linux**：支持大部分主流發行版
@@ -16,15 +18,18 @@ CHIRP 係一個免費、開源嘅電台編程軟件，支持超過 300 款唔同
 ### 安裝步驟
 
 **Windows**：
+
 1. 下載 .msi 安裝程式
 2. 雙擊安裝
 3. 按提示完成安裝
 
 **macOS**：
+
 1. 下載 .dmg 文件
 2. 拖動到 Applications 文件夾
 
 **Linux**：
+
 ```bash
 # 使用 pip 安裝
 pip3 install chirp
@@ -36,6 +41,7 @@ flatpak install flathub com.danplanet.chirp
 ### 驅動程式安裝
 
 大部分編程線使用以下晶片之一：
+
 - **CH340/CH341**：需要安裝 CH340 驅動
 - **CP2102**：需要安裝 Silicon Labs CP210x 驅動
 - **PL2303**：需要安裝 Prolific PL2303 驅動
@@ -60,6 +66,7 @@ flatpak install flathub com.danplanet.chirp
 5. 點擊 `OK` 開始讀取
 
 ::: tip 找不到串口？
+
 - Windows：喺裝置管理員中查看「端口（COM 和 LPT）」
 - macOS：串口通常顯示為 `/dev/tty.usbserial-XXXX`
 - Linux：通常係 `/dev/ttyUSB0` 或 `/dev/ttyACM0`
@@ -97,6 +104,7 @@ flatpak install flathub com.danplanet.chirp
 | Name | RPT-XXX | 中繼器名稱 |
 
 呢個設定意味住：
+
 - 接收：145.7500 MHz
 - 發射：145.7500 - 0.600 = 145.1500 MHz
 - 發射時附帶 88.5 Hz 嘅 CTCSS 碼
@@ -139,20 +147,24 @@ CHIRP 可以直接由 RepeaterBook 數據庫搜索同導入中繼器資訊：
 ## 常見電台嘅 CHIRP 設定
 
 ### 寶鋒 UV-5R
+
 - 編程線：Kenwood 2-pin 類型
 - 波特率：9600
 - 讀寫速度較慢，需要耐心
 
 ### 泉盛 UV-K5
+
 - 編程線：USB-C（部分型號）或 Kenwood 2-pin
 - 建議使用 CHIRP-next 版本
 - 部分第三方韌體可能需要特定版本嘅 CHIRP
 
 ### 八重洲 FT-65R
+
 - 需要原裝編程線或者兼容嘅第三方線
 - CHIRP 支持良好
 
 ### ICOM 電台
+
 - 通常需要 ICOM 專用嘅 CI-V 編程介面
 - 部分型號可以用 USB 直接連接
 
@@ -162,7 +174,7 @@ CHIRP 可以直接由 RepeaterBook 數據庫搜索同導入中繼器資訊：
 
 ### 建議嘅頻道分組
 
-```
+```text
 0-9     ：常用頻率同呼叫頻率
 10-29   ：本地中繼器
 30-49   ：鄰近地區中繼器
@@ -181,17 +193,20 @@ CHIRP 可以直接由 RepeaterBook 數據庫搜索同導入中繼器資訊：
 ## 常見問題
 
 ### CHIRP 識別唔到我嘅電台
+
 1. 檢查編程線同驅動
 2. 確認電台已開機
 3. 嘗試唔同嘅串口
 4. 確認電台型號喺 CHIRP 嘅支持列表中
 
 ### 寫入後電台行為異常
+
 1. 恢復出廠設定
 2. 由電台重新讀取
 3. 檢查有冇設定咗唔兼容嘅參數
 
 ### 頻道名稱顯示亂碼
+
 - 某啲電台唔支持中文字符
 - 使用英文同數字命名
 - 檢查字符編碼設定

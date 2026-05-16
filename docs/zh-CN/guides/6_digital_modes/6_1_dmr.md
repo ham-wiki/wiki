@@ -73,6 +73,7 @@ DMR 使用 AMBE+2 语音编解码器对语音进行数字化压缩。每个时�
 BrandMeister 是目前全球最大的业余 DMR 网络。
 
 **特点：**
+
 - 覆盖全球，中继器数量最多
 - 支持通过网页面板和手机 App 操控通话组
 - 支持热点（Hotspot）接入
@@ -80,6 +81,7 @@ BrandMeister 是目前全球最大的业余 DMR 网络。
 - 中国大陆有多个 BrandMeister 中继器
 
 **BrandMeister 自助服务：**
+
 - 网址：brandmeister.network
 - 可以查看中继器列表、在线用户、通话组活动情况
 - 可以管理个人热点的静态通话组设置
@@ -89,6 +91,7 @@ BrandMeister 是目前全球最大的业余 DMR 网络。
 TGIF（The Grupo IRLP Forever）是另一个流行的 DMR 网络。
 
 **特点：**
+
 - 独立于 BrandMeister
 - 有自己的通话组编号体系
 - 社区氛围友好

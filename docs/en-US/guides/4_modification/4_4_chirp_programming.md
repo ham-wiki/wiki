@@ -95,6 +95,7 @@ Programming cables are **not universal**. Different radios use different connect
 
 ::: tip
 If the download fails, try these steps in order:
+
 1. Make sure the radio is turned on and on the home screen (not in a menu).
 2. Try a different USB port (avoid hubs).
 3. Close any other software that might be using the serial port.
@@ -212,21 +213,25 @@ Writing to the radio **overwrites all existing channel data** with whatever is i
 ## Troubleshooting
 
 ### "No response from radio"
+
 - Ensure the radio is turned on and idle (not in a menu or scanning).
 - Check that you selected the correct serial port, vendor, and model.
 - Try a different USB port or cable.
 - On some Baofeng radios, you may need to start the download in CHIRP and then turn the radio on within 2--3 seconds.
 
 ### "Clone failed" or "Error during upload"
+
 - Some radios are finicky about timing. Try again; intermittent failures are common with cheaper cables.
 - Reduce cable length or avoid USB extension cables.
 - Close all other applications that might access the serial port.
 
 ### Channels don't appear on the radio after writing
+
 - Some radios require a power cycle after programming.
 - Verify that the channels were not written to a memory bank that is not currently selected on the radio.
 - Check that channel names don't contain characters the radio doesn't support (some radios only support uppercase letters and numbers).
 
 ### Tone squelch not working
+
 - Verify you selected the correct tone mode. **Tone** sends a tone on transmit only. **TSQL** sends and receives with tone squelch. **DTCS** uses digital coded squelch.
 - Double-check the tone frequency against the repeater's published information. A mismatch of even 0.1 Hz will prevent access.

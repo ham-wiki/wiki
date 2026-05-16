@@ -122,6 +122,7 @@ APRS 可以传输各种遥测数据：
 APRSDroid 是 Android 平台上最流行的 APRS 客户端。
 
 **功能特点：**
+
 - 支持 APRS-IS 网络连接
 - 支持通过蓝牙 TNC（如 Mobilinkd）连接电台
 - 支持音频线直连电台（AFSK 调制解调）
@@ -145,6 +146,7 @@ APRSDroid 是 Android 平台上最流行的 APRS 客户端。
 YAAC 是一个跨平台的 APRS 客户端，运行在 Java 环境下。
 
 **功能特点：**
+
 - 支持 Windows、macOS、Linux
 - 功能全面，支持多种连接方式
 - 可以作为 iGate 或 Digipeater 运行
@@ -214,6 +216,7 @@ APRS-IS（APRS Internet System）是 APRS 的互联网骨干网络。它由全�
 iGate（Internet Gateway）是连接 APRS 无线电网络和 APRS-IS 互联网网络的桥梁。
 
 **iGate 的功能：**
+
 - **RX iGate（只收）** — 接收无线电上的 APRS 信号，转发到 APRS-IS
 - **TX iGate（双向）** — 除了上行转发，还可以将 APRS-IS 上的消息通过无线电发射出去
 
@@ -222,6 +225,7 @@ iGate（Internet Gateway）是连接 APRS 无线电网络和 APRS-IS 互联网�
 搭建一个 RX iGate 非常简单：
 
 **硬件需求：**
+
 - 一台 VHF FM 接收机或电台（固定在 144.640 MHz）
 - 一台电脑（树莓派即可）
 - 音频连接线
@@ -229,6 +233,7 @@ iGate（Internet Gateway）是连接 APRS 无线电网络和 APRS-IS 互联网�
 - 稳定的网络连接
 
 **软件选择：**
+
 - **Direwolf** — 开源软件 TNC，支持 Linux/Windows/macOS，是搭建 iGate 的首选
 - **YAAC** — 也可以作为 iGate 运行
 

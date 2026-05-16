@@ -24,6 +24,7 @@ The RTL-SDR is the entry point into software defined radio and one of the best v
 **What it is:** A USB dongle based on the Realtek RTL2832U chip paired with a Rafael Micro R820T2 tuner. Originally designed as a DVB-T television receiver, the open-source community discovered it could be used as a general-purpose wideband SDR receiver.
 
 **Specifications:**
+
 - Frequency range: 24 MHz to 1.766 GHz (with some gaps)
 - Bandwidth: up to 2.4 MHz (stable at ~2 MHz)
 - Resolution: 8-bit ADC
@@ -31,6 +32,7 @@ The RTL-SDR is the entry point into software defined radio and one of the best v
 - Price: ~$25–35 (RTL-SDR Blog V4 recommended)
 
 **What you can do with it:**
+
 - Listen to amateur radio VHF/UHF (FM, SSB with appropriate software)
 - Receive FM broadcast radio
 - Decode aircraft ADS-B transponders (track flights in real time)
@@ -42,6 +44,7 @@ The RTL-SDR is the entry point into software defined radio and one of the best v
 - Spectrum analysis and RF survey work
 
 **Limitations:**
+
 - 8-bit ADC limits dynamic range (~50 dB)
 - No transmit capability
 - Limited bandwidth (2 MHz) means you see only a narrow slice of spectrum at a time
@@ -54,6 +57,7 @@ The RTL-SDR is the entry point into software defined radio and one of the best v
 SDRPlay makes a line of higher-performance SDR receivers.
 
 **Specifications:**
+
 - Frequency range: 1 kHz to 2 GHz (continuous)
 - Bandwidth: up to 10 MHz
 - Resolution: 12-bit / 14-bit ADC (depending on model)
@@ -62,6 +66,7 @@ SDRPlay makes a line of higher-performance SDR receivers.
 - Price: RSP1dx ~$80, RSPdx-R2 ~$220
 
 **Advantages over RTL-SDR:**
+
 - Wider bandwidth (10 MHz vs 2 MHz) — see more spectrum at once
 - Higher dynamic range from 12/14-bit ADC
 - Continuous coverage from 1 kHz to 2 GHz, including HF with good performance
@@ -75,6 +80,7 @@ SDRPlay makes a line of higher-performance SDR receivers.
 Designed specifically for HF and VHF reception with extremely high dynamic range.
 
 **Specifications:**
+
 - HF: 0.5 kHz to 31 MHz
 - VHF: 60–260 MHz
 - 18-bit effective resolution
@@ -101,6 +107,7 @@ Wideband SDR receivers with excellent performance.
 The HackRF One is a half-duplex SDR transceiver covering an enormous frequency range.
 
 **Specifications:**
+
 - Frequency: 1 MHz to 6 GHz
 - Bandwidth: up to 20 MHz
 - Resolution: 8-bit ADC/DAC
@@ -111,6 +118,7 @@ The HackRF One is a half-duplex SDR transceiver covering an enormous frequency r
 - Price: ~$300 (original) / ~$50–80 (clones, with caveats)
 
 **Use cases:**
+
 - RF research and experimentation
 - Protocol analysis
 - Replay and signal analysis
@@ -118,6 +126,7 @@ The HackRF One is a half-duplex SDR transceiver covering an enormous frequency r
 - Building custom transmitters and receivers
 
 **Important warnings:**
+
 - The HackRF's transmit output is broadband and unfiltered. **You must add band-pass filters before connecting to an antenna to avoid transmitting harmonics and spurious emissions.** Operating without filters likely violates regulations.
 - Transmit power is very low; an amplifier is needed for practical communication.
 - 8-bit resolution limits dynamic range for receive.
@@ -127,6 +136,7 @@ The HackRF One is a half-duplex SDR transceiver covering an enormous frequency r
 Analog Devices' educational SDR platform.
 
 **Specifications:**
+
 - Frequency: 325 MHz to 3.8 GHz (expandable to 70 MHz – 6 GHz with firmware mods)
 - Bandwidth: up to 20 MHz
 - 12-bit ADC/DAC
@@ -141,6 +151,7 @@ Analog Devices' educational SDR platform.
 A full-duplex, MIMO-capable SDR.
 
 **Specifications:**
+
 - Frequency: 100 kHz to 3.8 GHz
 - Bandwidth: up to 61.44 MHz
 - 12-bit ADC/DAC

@@ -46,14 +46,14 @@ CQ 是国际通用的"一般性呼叫"，表示你想和任何电台通联。
 
 **SSB 语音 CQ 呼叫格式：**
 
-```
+```text
 CQ CQ CQ，这里是 Bravo Hotel One Alpha Bravo Charlie，
 BH1ABC 呼叫 CQ 并守听。
 ```
 
 或使用英文：
 
-```
+```text
 CQ CQ CQ, this is Bravo Hotel One Alpha Bravo Charlie,
 BH1ABC calling CQ and standing by.
 ```
@@ -70,7 +70,7 @@ BH1ABC calling CQ and standing by.
 
 当你听到感兴趣的 CQ 呼叫时：
 
-```
+```text
 BH1ABC，这里是 BV2XYZ，Bravo Victor Two X-ray Yankee Zulu，收到请回答。
 ```
 
@@ -87,7 +87,7 @@ BH1ABC，这里是 BV2XYZ，Bravo Victor Two X-ray Yankee Zulu，收到请回答
 
 一个典型的通联过程：
 
-```
+```text
 "BV2XYZ，谢谢回复。你的信号报告是 59，我的 QTH 是北京，
 我叫小明。请给我你的信号报告，Over。"
 

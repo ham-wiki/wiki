@@ -10,11 +10,12 @@ When alternating current flows through a conductor, it creates time-varying elec
 
 The key dimension is **wavelength**, which is related to frequency by:
 
-```
+```text
 wavelength (meters) = 300 / frequency (MHz)
 ```
 
 For example:
+
 - 146 MHz (2 m band): wavelength = 2.05 m
 - 440 MHz (70 cm band): wavelength = 0.68 m
 - 14.2 MHz (20 m band): wavelength = 21.1 m
@@ -26,7 +27,7 @@ Antenna elements are typically sized as fractions of the wavelength: half-wave (
 
 Every antenna presents an impedance at its feedpoint — the point where the transmission line connects. Impedance is a complex number with a resistive part (R) and a reactive part (X), measured in ohms:
 
-```
+```text
 Z = R + jX
 ```
 
@@ -47,6 +48,7 @@ Your radio expects to see 50 ohms (50 + j0). When the antenna impedance differs,
 - **SWR 5.0:1 or higher** — Poor, significant reflected power, potential radio damage
 
 Impedance matching can be achieved by:
+
 - **Adjusting antenna dimensions** to bring it to resonance at the desired frequency
 - **Using a matching network** (antenna tuner, balun, matching transformer)
 - **Using a specific feedpoint technique** (gamma match, T-match, hairpin match)
@@ -103,6 +105,7 @@ The polarization of an electromagnetic wave describes the orientation of its ele
 **Matching polarization matters.** If a vertically polarized signal meets a horizontally polarized antenna (or vice versa), there is a theoretical 20 dB cross-polarization loss. In practice, reflections and scattering reduce this penalty, especially on HF where ionospheric reflection scrambles polarization. But on VHF/UHF line-of-sight paths, polarization mismatch is significant.
 
 Convention in amateur radio:
+
 - **VHF/UHF FM (repeaters):** Vertical polarization (vertical antennas)
 - **VHF/UHF SSB/CW (weak signal):** Horizontal polarization (horizontal Yagis)
 - **HF:** Horizontal polarization is traditional, but ionospheric reflection randomizes polarization, so it matters less

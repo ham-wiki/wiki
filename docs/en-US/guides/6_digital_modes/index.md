@@ -14,7 +14,9 @@ Digital modes represent one of the most dynamic and rapidly evolving areas of am
 Digital modes in amateur radio can be broadly categorized:
 
 ### Digital Voice
+
 These modes digitize and compress voice for transmission over radio:
+
 - **DMR** -- Open standard, widely adopted, uses TDMA time slots
 - **D-STAR** -- ICOM's proprietary digital voice and data system
 - **C4FM / System Fusion** -- Yaesu's digital voice system
@@ -23,7 +25,9 @@ These modes digitize and compress voice for transmission over radio:
 - **Codec2 / FreeDV** -- Open-source voice codec for HF digital voice
 
 ### Weak-Signal and Data Modes
+
 These modes encode text and data for HF communication, often at very low signal levels:
+
 - **FT8 / FT4** -- Structured exchanges; excellent for weak signals and DX
 - **JS8Call** -- Keyboard-to-keyboard messaging based on FT8's modulation
 - **PSK31** -- Phase-shift keying for real-time keyboard-to-keyboard chat
@@ -32,7 +36,9 @@ These modes encode text and data for HF communication, often at very low signal 
 - **Winlink** -- Email over radio (HF and VHF/UHF)
 
 ### Packet and Networking
+
 These modes create data networks over radio:
+
 - **APRS** -- Position reporting, messaging, telemetry, and weather
 - **Packet Radio** -- AX.25-based data communication (largely replaced by internet, but still used for APRS)
 - **VARA** -- High-speed HF modem used with Winlink

@@ -128,7 +128,7 @@ An **iGate** receives APRS packets on RF and forwards them to APRS-IS (receive-o
 
 Direwolf is configured via a text file (`direwolf.conf`). Key settings include:
 
-```
+```bash
 # Your callsign with SSID
 MYCALL N0CALL-10
 

@@ -30,15 +30,18 @@ C4FM 是 Yaesu 開發的數位語音系統，使用 C4FM（Continuous 4-level FM
 ### C4FM 設備
 
 **手持機**：
+
 - Yaesu FT-70DR：入門級 C4FM 手持機
 - Yaesu FT-5DR：進階款，觸控螢幕、APRS
 
 **車機**：
+
 - Yaesu FTM-200DR：中階車機
 - Yaesu FTM-300DR：多功能車機
 - Yaesu FTM-500DR：旗艦車機
 
 **中繼站**：
+
 - Yaesu DR-2X：專用 C4FM/FM 中繼站
 
 ### WIRES-X 網路
@@ -51,6 +54,7 @@ WIRES-X（Wide-coverage Internet Repeater Enhancement System）是 Yaesu 的網�
 - 支援文字訊息和圖像傳輸
 
 **常用 WIRES-X 房間**：
+
 - 可以在 WIRES-X 網頁上搜尋活躍的房間
 - 部分房間與其他數位系統（如 BrandMeister DMR）橋接
 
@@ -96,15 +100,18 @@ D-STAR 最獨特的功能之一是呼號路由：
 ### D-STAR 設備
 
 **手持機**：
+
 - ICOM ID-52A：旗艦手持機，彩色觸控螢幕、GPS、藍牙
 - ICOM ID-31A Plus：輕便的 UHF D-STAR 手持機
 - ICOM ID-51A Plus 2：雙頻 D-STAR 手持機
 
 **車機**：
+
 - ICOM ID-5100A：觸控螢幕雙頻車機
 - ICOM IC-9700：全模式 VHF/UHF/1.2 GHz 電台
 
 **其他**：
+
 - Kenwood TH-D75A：支援 D-STAR 和 APRS 的手持機
 
 ### D-STAR 註冊
@@ -125,6 +132,7 @@ D-STAR 最獨特的功能之一是呼號路由：
 5. 按 PTT 發射
 
 **連接 Reflector**：
+
 - 使用特定的呼號格式連接到 Reflector
 - 例如：UR 設為「REF001 CL」連接到 REF001 的 C 模組
 
@@ -170,6 +178,7 @@ C4FM 和 D-STAR 都可以透過 MMDVM Hotspot 使用：
 - **AllStar / EchoLink**：可以與多種數位系統橋接
 
 ::: tip 如何選擇？
+
 - 如果你主要在意**操作簡便性**和**FM 相容性**：選擇 C4FM
 - 如果你主要在意**呼號路由**和**全球覆蓋**：選擇 D-STAR
 - 如果你主要在意**設備選擇多**和**價格**：選擇 DMR

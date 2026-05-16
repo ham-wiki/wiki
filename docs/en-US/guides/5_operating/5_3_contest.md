@@ -132,6 +132,7 @@ Dedicated contest logging software is essential. The top programs include:
 | **TLF** | Linux | Free |
 
 These programs:
+
 - Track your score in real-time
 - Check for duplicate contacts
 - Display rate meters

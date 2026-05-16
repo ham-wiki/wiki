@@ -9,6 +9,7 @@ Please read the [Modification Tutorials overview](./index.md) for important safe
 :::
 
 **Tools you'll likely need:**
+
 - Precision Phillips screwdriver set (PH0, PH00)
 - Soldering iron with fine tip (temperature-controlled, 300--350 C)
 - Thin solder (0.5 mm or smaller rosin-core)
@@ -71,6 +72,7 @@ Modifying power output can damage the final amplifier transistor, cause harmful 
 :::
 
 The UV-82HP and some UV-82 variants claim 8W output but typically measure 4--5W on UHF. The actual power output is determined by a combination of:
+
 - The bias voltage on the final amplifier
 - The supply voltage (battery condition)
 - Firmware power level settings
@@ -84,6 +86,7 @@ One of the most impactful modifications for any Baofeng radio is replacing the s
 ### Why Upgrade the Antenna Connector?
 
 The stock SMA-Female connector on Baofeng radios is adequate for the included rubber duck antenna but has limitations:
+
 - The threads can wear over time, leading to intermittent connections
 - Repeated antenna changes stress the solder joints on the PCB
 - The stock connector limits you to SMA-compatible antennas
@@ -91,6 +94,7 @@ The stock SMA-Female connector on Baofeng radios is adequate for the included ru
 ### SMA to BNC Adapter (Non-Invasive)
 
 The simplest upgrade is an **SMA-Female to BNC-Female adapter**:
+
 - No modification to the radio required
 - BNC connectors are quick-connect/disconnect, reducing wear on the radio's SMA jack
 - Opens up a wider range of antenna options
@@ -126,12 +130,14 @@ This approach avoids modifying the radio itself while providing a proper externa
 ### Speaker Upgrade
 
 The stock Baofeng speaker is small and tinny. Replacement speakers with better frequency response are available:
+
 - Ensure the replacement speaker has the same impedance (typically 8 ohms) and fits the enclosure
 - Higher-quality speakers improve voice intelligibility, especially in noisy environments
 
 ### External Speaker/Mic Compatibility
 
 The Baofeng uses a Kenwood-compatible 2-pin connector (2.5 mm + 3.5 mm). Most Kenwood-style accessories are compatible, but quality varies enormously:
+
 - **Recommended:** Speaker-microphones from Baofeng or third-party brands specifically designed for Baofeng radios
 - **Avoid:** The cheapest no-name accessories, which often have poor audio quality and unreliable PTT switches
 
@@ -140,6 +146,7 @@ The Baofeng uses a Kenwood-compatible 2-pin connector (2.5 mm + 3.5 mm). Most Ke
 ### Backlight Color Change
 
 The UV-5R and UV-82 use a small LED for display backlighting. Replacing this LED changes the backlight color:
+
 - The stock LED is typically a blue or white SMD LED
 - Green, amber, and red replacements are available
 - This is a cosmetic modification only and does not affect radio performance
@@ -148,6 +155,7 @@ The UV-5R and UV-82 use a small LED for display backlighting. Replacing this LED
 ### Extended Battery Options
 
 Third-party extended batteries (2800--3800 mAh vs. the stock 1800 mAh) are one of the easiest and most useful upgrades:
+
 - No modification required -- they are direct replacements
 - Significantly extend operating time
 - Some extended batteries add bulk to the radio and may not fit in all carrying cases
