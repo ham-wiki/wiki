@@ -19,7 +19,20 @@ const gitChangelogPlugins = hasGitCommits()
       m.GitChangelog({ repoURL: () => "https://github.com/ham-wiki/wiki" }),
       m.GitChangelogMarkdownSection(),
     ])
-  : [];
+  : [
+      // Stub virtual module so client-side imports don't break
+      {
+        name: 'nolebase-git-changelog-stub',
+        resolveId(id: string) {
+          if (id === 'virtual:nolebase-git-changelog') return id;
+        },
+        load(id: string) {
+          if (id === 'virtual:nolebase-git-changelog') {
+            return 'export default []';
+          }
+        },
+      },
+    ];
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -359,6 +372,7 @@ export default defineConfig({
     optimizeDeps: {
       exclude: [
         "@nolebase/vitepress-plugin-enhanced-readabilities/client",
+        "@nolebase/vitepress-plugin-git-changelog/client",
         "vitepress",
         "@nolebase/ui",
       ],
@@ -366,6 +380,7 @@ export default defineConfig({
     ssr: {
       noExternal: [
         "@nolebase/vitepress-plugin-enhanced-readabilities",
+        "@nolebase/vitepress-plugin-git-changelog",
         "@nolebase/ui",
       ],
     },
