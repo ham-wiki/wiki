@@ -13,7 +13,7 @@ APRS（Automatic Packet Reporting System，自動封包報告系統）係由 Bob
 
 ## APRS 嘅工作原理
 
-```
+```text
 你嘅電台（帶 GPS）
     ↓ (144.390 MHz 美國 / 144.640 MHz 亞太)
 APRS Digipeater（轉發器）
@@ -100,7 +100,7 @@ aprs.fi / 其他地圖顯示
 
 一個典型嘅 APRS 位置封包：
 
-```
+```text
 VR2XYZ>APRS,WIDE1-1,WIDE2-1:=2216.98N/11409.51E-PHG2360 VR2XYZ APRS
 ```
 

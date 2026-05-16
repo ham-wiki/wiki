@@ -155,7 +155,7 @@
 
 CW 競賽的效率更高，一次通聯可能只需要 15 秒：
 
-```
+```text
 CQ TEST BV2XXX BV2XXX
 BM3ZZZ
 BM3ZZZ 599 24

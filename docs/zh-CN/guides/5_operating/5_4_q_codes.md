@@ -181,13 +181,13 @@ QSL VIA BURO              → 请通过 QSL Bureau 寄卡
 
 拼读呼号 **BH1ABC**：
 
-```
+```text
 Bravo Hotel One Alpha Bravo Charlie
 ```
 
 拼读呼号 **BV2XYZ**：
 
-```
+```text
 Bravo Victor Two X-ray Yankee Zulu
 ```
 
@@ -206,21 +206,21 @@ Bravo Victor Two X-ray Yankee Zulu
 
 ### 通联开始
 
-```
+```text
 CQ CQ CQ de BH1ABC BH1ABC BH1ABC K
 （CQ CQ CQ 这里是 BH1ABC 守听）
 ```
 
 ### 通联中
 
-```
+```text
 UR RST 599 599  QTH BEIJING  NAME XIAO MING
 （你的信号报告 599  我在北京  我叫小明）
 ```
 
 ### 通联结束
 
-```
+```text
 TU fer QSO  73  SK  BH1ABC
 （谢谢通联  73  结束  BH1ABC）
 ```

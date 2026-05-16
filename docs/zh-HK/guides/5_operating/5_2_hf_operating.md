@@ -42,14 +42,14 @@ SSB 唔似 FM 咁自動鎖定頻率，需要手動微調：
 
 當你想搵人通聯：
 
-```
+```text
 「CQ CQ CQ，this is Bravo Hotel Four X-ray Yankee Zulu，
 BH4XYZ calling CQ and listening.」
 ```
 
 或者用中文：
 
-```
+```text
 「CQ CQ CQ，呢度 BH4XYZ，Bravo Hotel Four X-ray Yankee Zulu，
 CQ 呼叫，收到請回覆。」
 ```
@@ -60,7 +60,7 @@ CQ 呼叫，收到請回覆。」
 
 如果你聽到有人 CQ：
 
-```
+```text
 「VR2ABC，呢度 VR2XYZ，Victor Romeo Two X-ray Yankee Zulu。」
 ```
 
@@ -73,7 +73,7 @@ CQ 呼叫，收到請回覆。」
 
 ### 範例 QSO
 
-```
+```text
 A：「CQ CQ，呢度 BH4ABC 呼叫 CQ。」
 B：「BH4ABC，呢度 VR2XYZ。」
 A：「VR2XYZ，多謝回覆！你嘅信號 59，我喺上海，用 IC-7300 同偶極天線。Over。」

@@ -169,7 +169,7 @@ Q 碼（Q Codes）是一套以字母 Q 開頭的三字母縮寫，最初用於�
 
 ### SSB 通聯
 
-```
+```text
 「CQ CQ CQ, this is Bravo Victor Two X-ray X-ray X-ray,
  BV2XXX calling CQ and listening.」
 
@@ -187,7 +187,7 @@ Q 碼（Q Codes）是一套以字母 Q 開頭的三字母縮寫，最初用於�
 
 ### CW 通聯（簡化）
 
-```
+```text
 CQ CQ CQ DE BV2XXX BV2XXX K
 BV2XXX DE BM3ZZZ BM3ZZZ K
 BM3ZZZ DE BV2XXX GM UR 599 QTH TAIPEI OP DAVID HW? K
