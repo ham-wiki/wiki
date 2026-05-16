@@ -1,0 +1,104 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Update about.md with build info
+        run: |
+          COMMIT_HASH=$(git rev-parse --short HEAD)
+          BUILD_TIME=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          BRANCH_NAME=${GITHUB_REF#refs/heads/}
+          WORKFLOW_RUN_ID=${GITHUB_RUN_ID}
+          
+          # 简体中文 (zh-CN)
+          if [ -f "docs/zh-CN/about.md" ]; then
+            cat >> docs/zh-CN/about.md << EOF
+          
+          
+          ## 构建信息
+          
+          - **最后更新时间**: ${BUILD_TIME}
+          - **Git 提交哈希**: \`${COMMIT_HASH}\`
+          - **构建分支**: \`${BRANCH_NAME}\`
+          - **工作流运行**: [${WORKFLOW_RUN_ID}](https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID})
+          EOF
+          fi
+          
+          # 繁体中文台湾 (zh-TW)
+          if [ -f "docs/zh-TW/about.md" ]; then
+            cat >> docs/zh-TW/about.md << EOF
+          
+          
+          ## 構建資訊
+          
+          - **最後更新時間**: ${BUILD_TIME}
+          - **Git 提交雜湊**: \`${COMMIT_HASH}\`
+          - **構建分支**: \`${BRANCH_NAME}\`
+          - **工作流程執行**: [${WORKFLOW_RUN_ID}](https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID})
+          EOF
+          fi
+          
+          # 繁体中文香港 (zh-HK)
+          if [ -f "docs/zh-HK/about.md" ]; then
+            cat >> docs/zh-HK/about.md << EOF
+          
+          
+          ## 構建資訊
+          
+          - **最後更新時間**: ${BUILD_TIME}
+          - **Git 提交雜湊**: \`${COMMIT_HASH}\`
+          - **構建分支**: \`${BRANCH_NAME}\`
+          - **工作流程執行**: [${WORKFLOW_RUN_ID}](https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID})
+          EOF
+          fi
+          
+          # 英文 (en-US)
+          if [ -f "docs/en-US/about.md" ]; then
+            cat >> docs/en-US/about.md << EOF
+          
+          
+          ## Build Information
+          
+          - **Last Updated**: ${BUILD_TIME}
+          - **Git Commit Hash**: \`${COMMIT_HASH}\`
+          - **Build Branch**: \`${BRANCH_NAME}\`
+          - **Workflow Run**: [${WORKFLOW_RUN_ID}](https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID})
+          EOF
+          fi
+
+      - name: Build with VitePress
+        run: bun run docs:build
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }}
+          projectName: ${{ secrets.CLOUDFLARE_PAGES_NAME }}
+          directory: docs/.vitepress/dist
+          wranglerVersion: 3
