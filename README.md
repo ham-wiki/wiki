@@ -130,4 +130,4 @@ bun run docs:preview
 [issues-shield]: https://img.shields.io/github/issues/ham-wiki/wiki.svg?style=for-the-badge
 [issues-url]: https://github.com/ham-wiki/wiki/issues
 [license-shield]: https://img.shields.io/github/license/ham-wiki/wiki.svg?style=for-the-badge
-[license-url]: https://github.com/ham-wiki/wiki/blob/master/LICENSE
+[license-url]: https://github.com/ham-wiki/wiki/blob/main/LICENSE

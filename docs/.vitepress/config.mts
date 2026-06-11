@@ -107,20 +107,8 @@ function generateRewrites() {
     const localeDir = join(__dirname, `../${locale}`);
 
     if (existsSync(localeDir)) {
-      if (existsSync(join(localeDir, 'index.md'))) {
-        rewrites[`${locale}/index.md`] = `${locale}/index.md`;
-      }
-
-      if (existsSync(join(localeDir, 'about.md'))) {
-        rewrites[`${locale}/about.md`] = `${locale}/about.md`;
-      }
-
       const localeGuidesDir = join(localeDir, 'guides');
       if (existsSync(localeGuidesDir)) {
-        if (existsSync(join(localeGuidesDir, 'index.md'))) {
-          rewrites[`${locale}/guides/index.md`] = `${locale}/guides/index.md`;
-        }
-
         const categories = readdirSync(localeGuidesDir, { withFileTypes: true })
           .filter((dirent) => dirent.isDirectory())
           .map((dirent) => dirent.name);
@@ -150,7 +138,7 @@ function generateRewrites() {
 }
 
 function generateSidebar(locale: string = 'zh-CN') {
-  const baseDir = locale === 'zh-CN' ? join(__dirname, "../zh-CN") : join(__dirname, `../${locale}`);
+  const baseDir = join(__dirname, `../${locale}`);
   const guidesDir = join(baseDir, "guides");
 
   if (!existsSync(guidesDir)) {

@@ -2,6 +2,7 @@
   "compilerOptions": {
     "jsx": "preserve",
     "lib": ["DOM", "ESNext"],
+    "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
