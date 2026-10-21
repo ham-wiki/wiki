@@ -13,6 +13,7 @@ The internet has transformed amateur radio, providing access to information, com
 | **RSGB** | `https://rsgb.org` | Radio Society of Great Britain -- the UK national organization. |
 | **eHam.net** | `https://www.eham.net` | Reviews, forums, articles, and classifieds for amateur radio. The equipment review section is especially valuable before purchasing gear. |
 | **RadioReference** | `https://www.radioreference.com` | Comprehensive database of radio frequencies (amateur, public safety, commercial). |
+| **Online Morse Code** | `https://onlinemorsecode.com/` | Free browser-based Morse code translator with adjustable-speed CW audio, WAV download, audio decoding, printable chart and learning guides. |
 
 ### Repeater and Frequency Databases
 
